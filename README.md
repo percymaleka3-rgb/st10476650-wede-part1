@@ -36,8 +36,9 @@ Responsive design techniques were applied in the use of CSS Grid, Flexbox, media
 * Modern Layouts & User Experience (UX): Replaced rigid table columns on Products.html and testimonials.html with responsive card-based CSS Grid components. Enhanced interactivity with hover elevations (transform: translateY(-4px)) and styled touch-friendly call-to-action buttons (.btn).
 Documentation & Verification: Created an entry in the repository's README.md under the changelog section detailing each design phase, structural migration, and accessibility improvement.
 
-
 3. Technical Implementation & Responsive Standards
-* Breakpoints & Adaptive Layouts: Defined standard device breakpoints for desktop, tablet, and mobile interfaces. Media queries stack multi-column grids and navigation lists into accessible vertical flows on screen widths under 600px.
-* Fluid Units & Scalability: Applied relative units (rem, em, %) across typography, container max-widths, and padding modules to support dynamic browser zooming and layout flexibility.
-* Responsive Asset Management: Standardized asset constraints across all product photography and branding imagery (max-width: 100%; height: auto;) to prevent viewport horizontal overflow.
+   * Breakpoints & Adaptive Layouts: Defined standard device breakpoints for desktop, tablet, and mobile interfaces. Media queries stack multi-column grids and navigation lists into accessible vertical flows on screen widths under 600px.
+   * Fluids Units & Scalability: Applied relative units (rem, em, %) across typography, container max-widths, and padding modules to support dynamic browser zooming and layout flexibility.
+   * Responsive Asset Management: Standardized asset constraints across all product photography and branding imagery (max-width: 100%; height: auto;) to prevent viewport horizontal overflow  
+
+
