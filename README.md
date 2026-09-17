@@ -29,15 +29,15 @@ Date: September 2026
 Sweet Crumbs Bakery has undergone a major visual and architectural overhaul by changing its old HTML-based design features to a modular external CSS style sheet (style.css). The headers, menus, and footers on all the pages (homepage.html, About Us.html, Products.html, Contact.html, testimonials html, and Contact Us.html) have been made uniform so that there exists aluniform brand image.
 Responsive design techniques were applied in the use of CSS Grid, Flexbox, media queries, and relative size measuring units to ensure smooth design across all kinds of devices - mobile phones, tablets, and computers. There were made steps to improve the design with the help of new card layout design techniques, improved typographical hierarchy, and drop shadow effects and engaging hover effects. implementation integrity.
 
-2. Core Areas of Enhancement
+
+3. Core Areas of Enhancement
 * Separation of Concerns & Code Maintainability: Removed deprecated HTML presentation tags including<font>, <center?, and bgcolor attributes. Eliminated nested layout <table> elements previously used for alignment and positioning, migrating all structural styling into an external CSS file (style.css).
 * Visual Consistency & Branding: Unified color tokens via CSS custom variables (--primary-brown: #6B3E26, --soft-pink: #FADADD, --warm-butter: #F5E1C8, --bg-cream: #FFFEE. Standardized the global header and footer structures to ensure identical branding and seamless transitions between pages.
 * Modern Layouts & User Experience (UX): Replaced rigid table columns on Products.html and testimonials.html with responsive card-based CSS Grid components. Enhanced interactivity with hover elevations (transform: translateY(-4px)) and styled touch-friendly call-to-action buttons (.btn).
 Documentation & Verification: Created an entry in the repository's README.md under the changelog section detailing each design phase, structural migration, and accessibility improvement.
 
+
 3. Technical Implementation & Responsive Standards
 * Breakpoints & Adaptive Layouts: Defined standard device breakpoints for desktop, tablet, and mobile interfaces. Media queries stack multi-column grids and navigation lists into accessible vertical flows on screen widths under 600px.
 * Fluid Units & Scalability: Applied relative units (rem, em, %) across typography, container max-widths, and padding modules to support dynamic browser zooming and layout flexibility.
 * Responsive Asset Management: Standardized asset constraints across all product photography and branding imagery (max-width: 100%; height: auto;) to prevent viewport horizontal overflow.
-
-  Simakle
